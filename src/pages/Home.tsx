@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Button from "../components/Ui/Button";
 import Modal from "../components/Ui/Modal";
+import SignUp from "./SignUp";
 
 
 const Home = () => {
@@ -17,10 +18,14 @@ const Home = () => {
                     <Button onClick={() => setModal((prev) => !prev)} classname="w-full" varient="outline" buttonName="Open Modal"  ></Button>
 
                 </div>
-                
+
+            </div>
+            <Modal modal={modal} onClose={closeModal} />
+            <div>
+                <SignUp/>
+            </div>
         </div>
-        <Modal modal={modal} onClose={closeModal}/>
-        </div>
+
     );
 };
 
