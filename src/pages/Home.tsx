@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Button from "../components/Ui/Button";
 import Modal from "../components/Ui/Modal";
-import SignUp from "./SignUp";
+// import SignUp from "./SignUp";
 
 
 const Home = () => {
@@ -21,8 +21,9 @@ const Home = () => {
 
             </div>
             <Modal modal={modal} onClose={closeModal} />
-            <div>
-                <SignUp/>
+            <div className="p-2">
+                {/* <SignUp/> */}
+                
             </div>
         </div>
 
