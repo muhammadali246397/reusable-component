@@ -1,4 +1,5 @@
 // import { Form, FormSection, FormSubmit } from "../components/reusableForm";
+import Motion from '../components/Ui/Motion';
 import './About.css'
 
 const About = () => {
@@ -32,6 +33,9 @@ const About = () => {
                         <span key={i} style={{transitionDelay:`${i*30}ms`}}>{items}</span>
                         </>)}
                     </div>
+                </div>
+                <div className='h-screen flex justify-center items-center'>
+                    <Motion/>
                 </div>
 
 
