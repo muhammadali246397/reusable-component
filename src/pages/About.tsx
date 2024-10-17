@@ -2,6 +2,9 @@
 import './About.css'
 
 const About = () => {
+    const name = "Programming Hero"
+    const nameArr = name.split("");
+
     return (
         <div>
             {/* <Form>
@@ -22,6 +25,13 @@ const About = () => {
                         <div className='square'></div>
                     </div>
 
+                </div>
+                <div className='h-screen bg-orange-400 flex justify-center items-center'>
+                    <div className='text-6xl font-bold text-white text' >
+                        {nameArr.map((items,i) => <>
+                        <span key={i} style={{transitionDelay:`${i*30}ms`}}>{items}</span>
+                        </>)}
+                    </div>
                 </div>
 
 

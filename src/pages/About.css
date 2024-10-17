@@ -84,3 +84,12 @@
         transform: translateY(-10px);
     }
 }
+
+
+.text{
+    transition: 50ms;
+}
+
+.text:hover{
+    color:rgb(162, 17, 162)
+}
