@@ -1,5 +1,6 @@
 // import { Form, FormSection, FormSubmit } from "../components/reusableForm";
 import Motion from '../components/Ui/Motion';
+import Move from '../components/Ui/Move';
 import './About.css'
 
 const About = () => {
@@ -38,7 +39,7 @@ const About = () => {
                     <Motion/>
                 </div>
 
-
+                <Move></Move>
 
         </div>
     );
